@@ -16,6 +16,8 @@
 		9A3AF3F626F8E5660052109A /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AF3F526F8E5660052109A /* First.swift */; };
 		9A3AF3FA26F8E60C0052109A /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AF3F926F8E60C0052109A /* Second.swift */; };
 		9A3AF3FD26F8E70E0052109A /* Third.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AF3FC26F8E70E0052109A /* Third.swift */; };
+		9A3AF40326F8EB270052109A /* TableDispatchFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AF40226F8EB270052109A /* TableDispatchFirst.swift */; };
+		9A3AF40726F8ED260052109A /* TableDispatchSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AF40626F8ED260052109A /* TableDispatchSecond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9A3AF3F526F8E5660052109A /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
 		9A3AF3F926F8E60C0052109A /* Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 		9A3AF3FC26F8E70E0052109A /* Third.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third.swift; sourceTree = "<group>"; };
+		9A3AF40226F8EB270052109A /* TableDispatchFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatchFirst.swift; sourceTree = "<group>"; };
+		9A3AF40626F8ED260052109A /* TableDispatchSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatchSecond.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		9A3AF3DE26F8E4010052109A /* method-dispatch */ = {
 			isa = PBXGroup;
 			children = (
+				9A3AF40126F8EAEB0052109A /* TableDispatch */,
 				9A3AF3F426F8E4DB0052109A /* StaticDispatch */,
 				9A3AF3DF26F8E4010052109A /* AppDelegate.swift */,
 				9A3AF3E126F8E4010052109A /* SceneDelegate.swift */,
@@ -82,6 +87,15 @@
 				9A3AF3FC26F8E70E0052109A /* Third.swift */,
 			);
 			path = StaticDispatch;
+			sourceTree = "<group>";
+		};
+		9A3AF40126F8EAEB0052109A /* TableDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				9A3AF40226F8EB270052109A /* TableDispatchFirst.swift */,
+				9A3AF40626F8ED260052109A /* TableDispatchSecond.swift */,
+			);
+			path = TableDispatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3AF40726F8ED260052109A /* TableDispatchSecond.swift in Sources */,
 				9A3AF3E426F8E4010052109A /* ViewController.swift in Sources */,
 				9A3AF3FD26F8E70E0052109A /* Third.swift in Sources */,
 				9A3AF3E026F8E4010052109A /* AppDelegate.swift in Sources */,
 				9A3AF3FA26F8E60C0052109A /* Second.swift in Sources */,
 				9A3AF3F626F8E5660052109A /* First.swift in Sources */,
+				9A3AF40326F8EB270052109A /* TableDispatchFirst.swift in Sources */,
 				9A3AF3E226F8E4010052109A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
