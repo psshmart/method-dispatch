@@ -30,6 +30,13 @@ class ViewController: UIViewController {
         // Table dispatch 3
         let newTableDispatchThirdClass: FirstProtocol = ThirdClass()
         newTableDispatchThirdClass.printProtocolName()
+        // NSObject Table Dispatch
+        let nsObjectSubclass = NSObjcSubclass()
+        nsObjectSubclass.printDispatchType()
+        // NSObject Message Dispatch
+        nsObjectSubclass.printNextDispatchType()
+        // NSObject Static Dispatch
+        nsObjectSubclass.printAnotherOneDispatchType()
     }
 }
 
