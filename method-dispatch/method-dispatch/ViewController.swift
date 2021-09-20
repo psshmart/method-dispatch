@@ -21,6 +21,15 @@ class ViewController: UIViewController {
         //Static dispatch 3
         let classC = NewClassC()
         classC.printSomethingInteresting(somethingInteresting: "I love food")
+        // Table dispatch 1
+        let tableDispatchSecondClass = SecondClass()
+        tableDispatchSecondClass.print1()
+        // Table dispatch 2
+        let tableDispatchThirdClass = ThirdClass()
+        tableDispatchThirdClass.printProtocolName()
+        // Table dispatch 3
+        let newTableDispatchThirdClass: FirstProtocol = ThirdClass()
+        newTableDispatchThirdClass.printProtocolName()
     }
 }
 
